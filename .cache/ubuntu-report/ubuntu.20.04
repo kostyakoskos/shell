@@ -1,0 +1,79 @@
+{
+  "Version": "20.04",
+  "OEM": {
+    "Vendor": "innotek GmbH",
+    "Product": "VirtualBox",
+    "Family": "Virtual Machine"
+  },
+  "BIOS": {
+    "Vendor": "innotek GmbH",
+    "Version": "VirtualBox"
+  },
+  "CPU": {
+    "OpMode": "32-bit, 64-bit",
+    "CPUs": "1",
+    "Threads": "1",
+    "Cores": "1",
+    "Sockets": "1",
+    "Vendor": "GenuineIntel",
+    "Family": "6",
+    "Model": "60",
+    "Stepping": "3",
+    "Name": "Intel(R) Core(TM) i7-4790K CPU @ 4.00GHz",
+    "Hypervisor": "KVM",
+    "VirtualizationType": "full"
+  },
+  "Arch": "amd64",
+  "GPU": [
+    {
+      "Vendor": "15ad",
+      "Model": "0405"
+    }
+  ],
+  "RAM": 1,
+  "Disks": [
+    10.7
+  ],
+  "Partitions": [
+    9.2,
+    0.5
+  ],
+  "Screens": [
+    {
+      "Size": "0mmx0mm",
+      "Resolution": "800x600",
+      "Frequency": "60.00"
+    }
+  ],
+  "Autologin": true,
+  "LivePatch": false,
+  "Session": {
+    "DE": "ubuntu:GNOME",
+    "Name": "ubuntu",
+    "Type": "x11"
+  },
+  "Language": "en_US",
+  "Timezone": "Europe/Minsk",
+  "Install": {
+    "Media": "Ubuntu 20.04.1 LTS \"Focal Fossa\" - Release amd64 (20200731)",
+    "Type": "GTK",
+    "OEM": false,
+    "PartitionMethod": "reinstall_partition",
+    "DownloadUpdates": true,
+    "Language": "en",
+    "Minimal": false,
+    "RestrictedAddons": false,
+    "Stages": {
+      "0": "language",
+      "6": "language",
+      "83": "console_setup",
+      "89": "prepare",
+      "154": "partman",
+      "235": "start_install",
+      "244": "timezone",
+      "252": "usersetup",
+      "272": "user_done",
+      "1048": "done"
+    }
+  }
+}
